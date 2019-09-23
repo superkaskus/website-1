@@ -1,0 +1,40 @@
+/* import only the necessary Bootstrap files */
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$enable-rounded: false;
+
+/* colour specs */
+$primary: #1b3534;
+$secondary: #d9ead2;
+$pale: #ebe6de;
+$dark-gray: #545554;
+$light-gray: #8a8889;
+$white: #ffff;
+
+
+$theme-colors: (primary: $primary,
+  secondary:$secondary);
+
+$theme-colors: map-merge(("pale": $pale,
+    "dark-gray": $dark-gray,
+    "light-gray": $light-gray,
+    "white": #ffff),
+  $theme-colors);
+
+
+
+
+
+
+
+/* increase container width for the wider lg and xl breakpoints */
+
+$container-max-widths: (sm: 540px, md: 720px, lg: 1050px, xl: 1440px)
+/* --- end customization ------ */
+
+// color variables
+
+
+/*! Bootstrap 4 custom build by Themestr.app */
+/*! Bootstrap 4 custom build by Themestr.app */

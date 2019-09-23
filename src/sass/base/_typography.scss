@@ -1,0 +1,40 @@
+// Global styling for this template
+
+
+/* Typography specs */
+$font-family-base: Work Sans;
+
+$headings-font-family: Work Sans;
+$headings-font-weight: 300;
+$headings-color: $white;
+$headings-line-height: 1.95rem;
+
+$h1-font-size: 1.625rem;
+$h2-font-size: 1.875rem;
+
+
+html,
+body {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 1.31 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+h1 {
+  line-height: 1.95rem !important;
+}
+
+h2 {
+  font-weight: 400 !important;
+  line-height: 2.25rem !important;
+  color: $primary !important;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300 !important;
+  line-height: 1.31rem;
+  color: $primary;
+}
