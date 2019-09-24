@@ -1,1 +1,26 @@
+$input-color: $primary;
+$input-placeholder-color:$primary;
+$input-font-weight: $font-weight-normal;
+$input-font-size: 18px;
+$input-border-width:0;
+$input-bg: transparent;
 
+.form-control {
+  border-bottom: 1.5px solid $primary !important;
+  padding-left: 0 !important;
+  margin-bottom: 30px !important;
+
+}
+
+.select {
+
+  border-width: 0 !important;
+  margin-bottom: 0px !important;
+  box-sizing: border-box;
+
+
+}
+
+.select-div {
+  border-bottom: 2px solid $primary;
+}

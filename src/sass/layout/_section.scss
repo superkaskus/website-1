@@ -1,0 +1,42 @@
+body {
+
+  max-width: 1440;
+
+}
+
+.b-section {
+  padding-top: 44px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+
+  .row {
+    h2 {
+
+      margin-bottom: 15px;
+
+    }
+
+    p {
+      margin-bottom: 30px;
+    }
+
+    .e-col-2 {
+      background-image: url("/src/assets/images/Heart\ Leaf\ EDIT\ STEM.png");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+      width: 100%;
+      margin-top: -150px;
+    }
+  }
+}
+
+.b-section-contact {
+  .e-col-1 {
+    p {
+      font-weight: 400 !important;
+      line-height: 2.5rem;
+    }
+  }
+}

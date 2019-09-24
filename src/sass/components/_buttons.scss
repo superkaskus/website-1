@@ -1,0 +1,26 @@
+$btn-font-size-sm: 10px;
+$btn-font-size-lg: 14px;
+$btn-padding-x-sm: 18.9px;
+
+$btn-line-height-sm: 1.4rem;
+
+.btn {
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: $primary !important;
+    border-color: $primary !important;
+    color: $secondary !important;
+  }
+
+}
+
+.btn-sm {
+  letter-spacing: 1.8px;
+}
+
+.btn-lg {
+  letter-spacing: 2.52px;
+}

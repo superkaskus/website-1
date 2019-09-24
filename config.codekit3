@@ -48,6 +48,60 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/images/ArkhefieldLogoBlack.png": {
+		"ft": 32768,
+		"iS": 37802,
+		"oA": 0,
+		"oAP": "/dist/assets/images/ArkhefieldLogoBlack.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/images/chris-lee-654655-unsplash (1).png": {
+		"ft": 32768,
+		"iS": 14507743,
+		"oA": 0,
+		"oAP": "/dist/assets/images/chris-lee-654655-unsplash (1).png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/images/Heart Leaf EDIT STEM.png": {
+		"ft": 32768,
+		"iS": 26517171,
+		"oA": 0,
+		"oAP": "/dist/assets/images/Heart Leaf EDIT STEM.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/images/Hero_Image.jpg": {
+		"ft": 16384,
+		"iS": 29821518,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/images/Hero_Image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/images/logo-svg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/images/logo-svg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/src/assets/images/Logo-westend@2x.png": {
 		"ft": 32768,
 		"iS": 1371,
@@ -59,16 +113,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/src/assets/images/Screen Shot 2018-06-14 at 8.07.10 am.png": {
-		"ft": 32768,
-		"iS": 286344,
-		"oA": 0,
-		"oAP": "/dist/assets/images/Screen Shot 2018-06-14 at 8.07.10 am.png",
+	"/src/assets/images/west-end-big-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/images/west-end-big-logo.svg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/src/components.html": {
 		"cB": 0,

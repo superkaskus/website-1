@@ -6,6 +6,7 @@
   <title>Architect</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -18,14 +19,97 @@
 
 
 
-  <!-- Just an image -->
-  <nav class="navbar navbar-light bg-light">
+  <!-- Navigation -->
+  <nav class="navbar container fixed-top navbar-custom">
     <a class="navbar-brand" href="index.html">
-      <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="Brand logo image">
+      <img src="/src/assets/images/logo-svg.svg" alt="Brand logo image">
     </a>
+
+    <button type="button" class="btn btn-outline-white btn-sm">Register</button>
   </nav>
 
+  <!-- Header -->
+  <header class="container-fluid  text-center bg-transparent b-hero">
+    <div class="hero-overlay"></div>
+    <div class="row mx-auto">
+      <div class="col">
+        <img src="/src/assets/images/west-end-big-logo.svg" alt="A big brand logo" class="logo-image">
+        <h1>A collection of just 18 residences
+          with spectacular city views.
+          Now selling.</h1>
+        <button type="button" class="btn btn-outline-white btn-lg">Register Now</button>
+      </div>
+    </div>
+  </header>
 
+  <!-- section 1 -->
+
+  <section class="container-fluid bg-pale b-section">
+    <div class="container text-left px-0">
+      <div class="row .no-gutters">
+        <div class="col-12 col-md-6 e-col-1">
+          <h2>Discover a distinctly different perspective on luxury living.</h2>
+          <p>Secluded in the heart of town, West End is a collection of beautifully appointed residences that have been
+            designed to inspire. Crafted by AA Development and Marco Endo, with innovative architecture by Arkhefield.
+            <br> <br>
+            Just 18 stunning 2 and 3 bedroom residences are now selling from $685,000.</p>
+          <button class="btn btn-outline-primary btn-lg">Register Now</button>
+        </div>
+        <div class="col-12 col-md-6 e-col-2">
+
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="container-fluid bg-secondary b-section b-section-contact">
+    <div class="container text-center px-0">
+      <div class="row .no-gutters">
+        <div class="col e-col-1">
+          <h2>Register your interest.</h2>
+          <p>Enter your details below to receive a copy of the West End project brochure. </p>
+
+        </div>
+
+      </div>
+
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Name*">
+        </div>
+        <div class="form-group">
+          <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Mobile*">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Email*">
+        </div>
+        <div class="form-group">
+          <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Postcode*">
+        </div>
+        <div class="form-group">
+          <div class="select-div">
+            <select class="form-control select" id="exampleFormControlSelect1">
+              <option>How did you hear about us?</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+
+          </div>
+
+        </div>
+        <button type="submit" class="btn btn-primary px-5 btn-lg">Register</button>
+      </form>
+    </div>
+  </section>
 
 
 
