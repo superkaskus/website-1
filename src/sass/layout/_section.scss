@@ -7,9 +7,21 @@ body {
 .b-section {
   padding-top: 44px;
 
+  background-image: url("/src/assets/images/Heart\ Leaf\ EDIT\ STEM.png") !important;
+  background-position: -220px 220px;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+
+  height: 819px;
+
+
   .e-col-1 {
+    max-width: 436px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
     z-index: 3;
   }
+
 
   .row {
     h2 {
@@ -23,14 +35,76 @@ body {
     }
 
     .e-col-2 {
-      background-image: url("/src/assets/images/Heart\ Leaf\ EDIT\ STEM.png");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 500px;
+
       width: 100%;
-      margin-top: -150px;
       z-index: 1;
     }
   }
+
+
+
+
+
+}
+
+
+/********** Media query Responsive breakpoin (sm and up)***************/
+
+
+@media (min-width: 425px) {
+
+  .b-section {
+    padding-top: 44px;
+    background-position: 0px 220px;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .b-section {
+    padding-top: 44px;
+    background-position: 0px 220px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .b-section {
+    background-image: url("/src/assets/images/Mask-leaf.png") !important;
+    background-position: 0 10px;
+    background-repeat: no-repeat;
+    background-size: contain !important;
+    padding-top: 24.4px;
+
+    .row {
+      h2 {
+        margin-top: 151.4px;
+        margin-bottom: 35px;
+      }
+
+      p {
+        margin-bottom: 50px;
+      }
+
+      .btn {
+        margin-bottom: 148.4px;
+      }
+    }
+
+    .e-col-1 {
+      z-index: 3;
+      max-width: 436px;
+      margin-left: 50.3px;
+    }
+
+    .e-col-2 {
+
+      margin-top: 0 !important;
+      visibility: hidden;
+
+
+    }
+  }
+
 }

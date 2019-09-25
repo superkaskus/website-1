@@ -119,6 +119,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/images/heart-leaf-edit-psd.png": {
+		"ft": 32768,
+		"iS": 142916,
+		"oA": 0,
+		"oAP": "/dist/assets/images/heart-leaf-edit-psd.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/images/Hero_Image.jpg": {
 		"ft": 16384,
 		"iS": 29821518,
@@ -145,6 +156,28 @@
 		"iS": 1371,
 		"oA": 0,
 		"oAP": "/dist/assets/images/Logo-westend@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/images/Mask-leaf.png": {
+		"ft": 32768,
+		"iS": 426170,
+		"oA": 0,
+		"oAP": "/dist/assets/images/Mask-leaf.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/images/rectangle-40.png": {
+		"ft": 32768,
+		"iS": 552818,
+		"oA": 0,
+		"oAP": "/dist/assets/images/rectangle-40.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,

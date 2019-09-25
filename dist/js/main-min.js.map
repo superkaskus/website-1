@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../src/js/main.js"],"names":["$","document","ready"],"mappings":"AAAAA,EAAEC,UAAUC,MAAM"}
+{"version":3,"sources":["../../src/js/main.js"],"names":["$","window","bind","navHeight","height","scrollTop","addClass","removeClass"],"mappings":"AAEAA,EAAEC,QAAQC,KAAK,SAAU,WACvB,IAAIC,EAAYH,EAAE,cAAcI,SAAW,IACvCJ,EAAEC,QAAQI,YAAcF,EAC1BH,EAAE,kBAAkBM,SAAS,UAE7BN,EAAE,iBAAiBO,YAAY"}

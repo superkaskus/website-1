@@ -9,6 +9,14 @@ $input-bg: transparent;
 
 .b-section-contact {
 
+  padding-top: 44px;
+
+  z-index: 3;
+
+  form {
+    max-width: 730px;
+  }
+
   .e-col-1 {
     p {
       font-weight: 400;
@@ -59,5 +67,21 @@ $input-bg: transparent;
 
   button {
     margin-bottom: 53px;
+  }
+}
+
+
+/********** Media query Responsive breakpoin md and up (tablets) ***************/
+
+@media (min-width: 768px) {}
+
+/********** Media query Responsive breakpoin lg and up (desktops)***************/
+@media (min-width: 992px) {
+  .b-section-contact {
+
+    background-image: url("/src/assets/images/rectangle-40.png");
+    background-position: -320px 330px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }

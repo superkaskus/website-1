@@ -8,7 +8,7 @@ $headings-font-family: Work Sans;
 $headings-font-weight: 300;
 $headings-color: $white;
 $headings-line-height: 1.95rem;
-
+$enable-responsive-font-sizes: true;
 
 $h1-font-size: 1.625rem;
 $h2-font-size: 1.875rem;
@@ -41,4 +41,22 @@ p {
   font-weight: 300;
   line-height: 1.31rem;
   color: $primary;
+}
+
+
+/********** Media query Responsive breakpoin (sm and up)***************/
+
+@media (min-width: 768px) {
+
+  h1 {
+    font-size: 40px !important;
+    line-height: 48px !important;
+  }
+
+  h2 {
+    font-size: 36px !important;
+    line-height: 43.2px !important;
+  }
+
+
 }

@@ -1,2 +1,2 @@
-$(document).ready(function(){});
+$(window).bind("scroll",function(){var a=$("#js-header").height()-600;$(window).scrollTop()>a?$(".navbar-custom").addClass("activo"):$("navbar-custom").removeClass("activo")});
 //# sourceMappingURL=main-min.js.map

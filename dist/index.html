@@ -25,11 +25,12 @@
       <img src="/src/assets/images/logo-svg.svg" alt="Brand logo image">
     </a>
 
-    <button type="button" class="btn btn-outline-white btn-sm">Register</button>
+    <button type="button" class="btn btn-outline-white ml-auto btn-sm js-button">Register</button>
+    <button type="button" class="btn btn-outline-white ml-auto btn-lg nav-big-button">Register Now</button>
   </nav>
 
   <!-- Header -->
-  <header class="container-fluid  text-center bg-transparent b-hero">
+  <header id="js-header" class="container-fluid text-center bg-transparent b-hero">
     <div class="hero-overlay"></div>
     <div class="row mx-auto">
       <div class="col">
@@ -44,10 +45,10 @@
 
   <!-- section 1 -->
 
-  <section class="container-fluid bg-pale b-section">
-    <div class="container text-left px-0">
-      <div class="row .no-gutters">
-        <div class="col-12 col-md-6 e-col-1">
+  <section class="container-fluid p-0 bg-pale ">
+    <div class="container text-left px-0 b-section">
+      <div class="row no-gutters d-flex">
+        <div class="col-12 col-lg-6 e-col-1 order-lg-2">
           <h2>Discover a distinctly different perspective on luxury living.</h2>
           <p>Secluded in the heart of town, West End is a collection of beautifully appointed residences that have been
             designed to inspire. Crafted by AA Development and Marco Endo, with innovative architecture by Arkhefield.
@@ -56,42 +57,56 @@
           <button class="btn btn-outline-primary btn-lg">Register Now</button>
 
         </div>
-        <div class="col-12 .no-gutters col-md-6 e-col-2">
+
+        <div class="col-12 col-lg-6 e-col-2 order-lg-1">
 
         </div>
 
-
       </div>
+
+
+
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section class="container-fluid bg-secondary b-section b-section-contact">
-    <div class="container text-center px-0">
+  <section class="container-fluid  px-0 bg-secondary">
+    <div class="container text-center   b-section-contact">
 
-      <div class="row .no-gutters">
+      <div class="row no-gutters">
         <div class="col e-col-1">
           <h2>Register your interest.</h2>
           <p>Enter your details below to receive a copy of the West End project brochure. </p>
         </div>
       </div>
 
-      <form>
-        <div class="form-group">
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-            placeholder="Name*">
-        </div>
-        <div class="form-group">
-          <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-            placeholder="Mobile*">
-        </div>
-        <div class="form-group">
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-            placeholder="Email*">
-        </div>
-        <div class="form-group">
-          <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-            placeholder="Postcode*">
+      <form class="mx-auto">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Name*">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Mobile*">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Email*">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Postcode*">
+            </div>
+          </div>
         </div>
         <div class="form-group">
           <div class="select-div">
@@ -118,12 +133,15 @@
       </div>
     </div>
   </section>
+
+
+  <!-- Footer Section -->
   <footer class="container-fluid text-center bg-dark-gray">
     <div class="container">
       <div class="row partners-logo-block">
-        <div class="col-12"><img src="/src/assets/images/DevLogo.svg" alt="partners logo"></div>
-        <div class="col-12"><img src="/src/assets/images/DMlogo.svg" alt="partners logo"></div>
-        <div class="col-12"><img src="/src/assets/images/ArkhefieldLogoBlack.png" alt="partners logo"
+        <div class="col-12 col-md-4"><img src="/src/assets/images/DevLogo.svg" alt="partners logo"></div>
+        <div class="col-12 col-md-4"><img src="/src/assets/images/DMlogo.svg" alt="partners logo"></div>
+        <div class="col-12 col-md-4"><img src="/src/assets/images/ArkhefieldLogoBlack.png" alt="partners logo"
             style="height: 26px; width: 192px;"></div>
       </div>
 

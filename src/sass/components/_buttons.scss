@@ -24,3 +24,24 @@ $btn-line-height-sm: 1.4rem;
 .btn-lg {
   letter-spacing: 2.52px;
 }
+
+.nav-big-button {
+  display: none !important;
+}
+
+
+
+
+/********** Media query Responsive breakpoin (sm and up)***************/
+
+@media (min-width: 768px) {
+
+  .btn-sm {
+    display: none !important;
+  }
+
+  .nav-big-button {
+    display: block !important;
+  }
+
+}

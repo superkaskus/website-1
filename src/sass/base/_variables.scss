@@ -1,5 +1,6 @@
 /* import only the necessary Bootstrap files */
 @import "../node_modules/bootstrap/scss/functions";
+//@import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/variables";
 
 $enable-rounded: false;
@@ -30,7 +31,8 @@ $theme-colors: map-merge(("pale": $pale,
 
 /* increase container width for the wider lg and xl breakpoints */
 
-$container-fluid-max-widths: (sm: 540px, md: 720px, lg: 1050px, xl: 1440px)
+//$container-fluid-max-widths: (sm: 540px, md: 720px, lg: 1050px, xl: 1440px)
+$container-max-widths: (xl: 1440px);
 /* --- end customization ------ */
 
 // color variables
