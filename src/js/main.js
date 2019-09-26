@@ -1,10 +1,8 @@
 // Show Menu on Book
+$(document).ready(function () {
 
-$(window).bind('scroll', function () {
-  var navHeight = $('#js-header').height() - 600;
-  if ($(window).scrollTop() > navHeight) {
-    $('.navbar-custom').addClass('activo');
-  } else {
-    $('navbar-custom').removeClass('activo');
-  }
-});
+
+  $(window).scroll(function () {
+    $('.navbar-custom').toggleClass('activo', $(this).scrollTop() > 50);
+  });
+})

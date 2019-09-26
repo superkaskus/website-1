@@ -1,2 +1,2 @@
-$(window).bind("scroll",function(){var a=$("#js-header").height()-600;$(window).scrollTop()>a?$(".navbar-custom").addClass("activo"):$("navbar-custom").removeClass("activo")});
+$(document).ready(function(){$(window).scroll(function(){$(".navbar-custom").toggleClass("activo",$(this).scrollTop()>50)})});
 //# sourceMappingURL=main-min.js.map

@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../src/js/main.js"],"names":["$","window","bind","navHeight","height","scrollTop","addClass","removeClass"],"mappings":"AAEAA,EAAEC,QAAQC,KAAK,SAAU,WACvB,IAAIC,EAAYH,EAAE,cAAcI,SAAW,IACvCJ,EAAEC,QAAQI,YAAcF,EAC1BH,EAAE,kBAAkBM,SAAS,UAE7BN,EAAE,iBAAiBO,YAAY"}
+{"version":3,"sources":["../../src/js/main.js"],"names":["$","document","ready","window","scroll","toggleClass","this","scrollTop"],"mappings":"AACAA,EAAEC,UAAUC,MAAM,WAGhBF,EAAEG,QAAQC,OAAO,WACfJ,EAAE,kBAAkBK,YAAY,SAAUL,EAAEM,MAAMC,YAAc"}
