@@ -5,6 +5,11 @@ $input-font-size: 18px;
 $input-border-width:0;
 $input-bg: transparent;
 
+$input-focus-bg: transparent;
+$input-focus-border-color: transparent;
+$input-focus-color: $primary;
+$input-focus-box-shadow:none;
+
 
 
 .b-section-contact {
@@ -49,6 +54,7 @@ $input-bg: transparent;
     padding-left: 0;
     margin-bottom: 30px;
 
+
   }
 
   .select {
@@ -63,6 +69,7 @@ $input-bg: transparent;
   .select-div {
     border-bottom: 2px solid $primary;
     margin-bottom: 54.3px;
+
   }
 
   button {
